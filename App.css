@@ -1,0 +1,92 @@
+  .Header {
+  display: flex; /* Utiliza flexbox para el diseño */
+  background-color: green; /* Color verde para la barra de cabecera */
+  color: white;
+  padding: 10px;
+  align-items: center; /* Alinea los elementos verticalmente */
+  justify-content: space-between; /* Alinea los elementos de manera uniforme a lo largo de la línea principal */
+  height: 50px;
+}
+
+#titulo {
+  color: black; /* Color negro para el texto */
+  font-weight: bold; /* Texto en negritas */
+  font-size: calc(1em + 1vw);
+  line-height: 1em;
+  padding: 1em;
+  margin: 1em;
+}
+
+
+#logo {
+  padding: 10px;
+  height: 80px;
+}
+
+#btnIniciarSesion,
+#btnInscribirme,
+#btnCourse,
+#btnContactanos,
+#btnNosotros {
+  background-color: transparent; /* Fondo transparente */
+  color: white; /* Color del texto blanco */
+  border: none; /* Sin borde */
+  cursor: pointer; /* Cursor de tipo puntero al pasar sobre el botón */
+  padding: 8px 12px; /* Espacio interno */
+  font-size: 16px; /* Tamaño del texto */
+}
+
+#btnIniciarSesion:hover,
+#btnInscribirme:hover, 
+#btnCourse:hover,
+#btnContactanos:hover,
+#btnNosotros:hover{
+  background-color: rgba(255, 255, 255, 0.2); /* Cambio de color al pasar el ratón */
+}
+
+.DropdownMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: white; /* Cambiar el color de fondo a blanco */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.Dropdown button {
+  background-color: transparent;
+  color: black; /* Cambiar el color del texto a negro */
+  border: none;
+  cursor: pointer;
+  padding: 8px 12px;
+  font-size: 16px;
+}
+
+#btnMostrarDropdown {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.MenuContainer {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 200px; /* Ajusta el ancho del contenedor según sea necesario */
+  padding: 10px; /* Añade un espacio de relleno para mayor separación */
+}
+
+.Menu {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+
+
